@@ -1,0 +1,6 @@
+scp -r . pi@whiterpi:
+scp -r . pi@greenrpi:
+scp -r . pi@bluerpi:
+
+sudo iptables -I INPUT -p tcp --dport 5000 -j ACCEPT
+sudo iptables -I OUTPUT -p tcp --dport 5000 -j ACCEPT
