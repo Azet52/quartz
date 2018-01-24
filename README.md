@@ -1,1 +1,1 @@
-Python libraries: flask, netifaces, pycrypto, pymongo (future), requests, zeroconf  
+Python libraries: flask, netifaces, rsa, pymongo (future), requests, zeroconf  

@@ -4,3 +4,5 @@ scp -r . pi@bluerpi:
 
 sudo iptables -I INPUT -p tcp --dport 5000 -j ACCEPT
 sudo iptables -I OUTPUT -p tcp --dport 5000 -j ACCEPT
+
+ curl "localhost:5000/register" -H "Content-Type: application/json" -d '{"fingerprint": "00000", "address": "192.168.43.65"}'
